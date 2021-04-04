@@ -1,0 +1,52 @@
+.cpu-container {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-areas: 
+    "clock bus pc"
+    "ram bus rega"
+    "ram bus alu"
+    "ir bus regb"
+    "ctrl bus display";
+}
+
+.cpu-bus {
+    grid-area: bus;
+}
+.cpu-bus-content {
+    height: 100%;
+}
+.cpu-clock {
+    grid-area: clock;
+}
+
+.cpu-pc {
+    grid-area: pc;
+}
+
+.cpu-rega {
+    grid-area: rega;
+}
+
+.cpu-regb {
+    grid-area: regb;
+}
+
+.cpu-alu {
+    grid-area: alu;
+}
+
+.cpu-ram {
+    grid-area: ram;
+}
+
+.cpu-ir {
+    grid-area: ir;
+}
+
+.cpu-control {
+    grid-area: ctrl;
+}
+
+.cpu-display {
+    grid-area: display;
+}

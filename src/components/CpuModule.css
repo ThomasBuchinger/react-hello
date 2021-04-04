@@ -1,0 +1,32 @@
+
+.led-status {
+    /* font-size: small; */
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.led-bar {
+    width: 12.5%;
+}
+.led-ram {
+    display: inline-block;
+    width: 12.5%;
+    height: 10px;
+    margin: 0px;
+}
+
+.cpu-module {
+    margin: 2px;
+    border: 1px solid black;
+    padding: auto;
+}
+
+.cpu-module-header {
+    font-weight: bolder;
+}
+.cpu-module-flags {
+    width: fit-content;
+}
+.cpu-module-flags .badge {
+    margin-right: 5px;
+    display: block;
+}
